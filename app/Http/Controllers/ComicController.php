@@ -10,4 +10,17 @@ class ComicController extends Controller
     {
         return view('welcome');
     }
+    public function show()
+    {
+        return view('welcome');
+    }
+    public function create()
+    {
+        return view('welcome');
+    }
+
+    public function store()
+    {
+        return view('welcome');
+    }
 }
