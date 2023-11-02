@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ComicController;
 
 Route::get('/', [ComicController::class, 'index']);
+Route::get('/store', [ComicController::class, 'store']);
+Route::get('/add_comic', [ComicController::class, 'show_add']);
